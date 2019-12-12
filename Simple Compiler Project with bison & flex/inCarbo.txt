@@ -1,0 +1,56 @@
+connect carbodose.h
+connect carbonizer.h
+connect carbohydrate.h
+
+main()
+{{
+	REAL foo;
+	REAL bar; 		//this is a variable definition
+	bar = 1.98;
+	foo = 2.98; 
+
+	SHOW(foo^bar^2);	//math's power function with assoc
+
+	STRING ssttrr;
+	ssttrr = "Carbo";
+	STRSHOW(ssttrr);
+	
+	SWITCH ( 3 )
+	{{
+	CASE 1.0 :
+		3.00;
+	CASE 67.0 :
+		3.00;
+	CASE 3.0 :
+		333.00;
+	DEFAULT :
+		33 >= 9;
+	}}
+
+	SHOW("loop_chalabo");
+
+	FOR(0<=5,1){{
+		bar + 10.00;
+	}}
+
+	SHOW("if_shuru_holo");
+
+	IF(foo<=bar){{
+		1.00+1.00;
+	}} ELSE {{
+		bar * 2.00 + 5.09;
+	}}
+
+	SHOW(bar);
+
+	SHOW("various_built_in_functions_fctrl_gcd_lg10_lg_sin_cs_tn");
+
+	SHOW(FACTORIAL(4));
+	SHOW(GCD(12,18));
+	SHOW(LOG10(100));
+	SHOW(LOG(16));
+	SHOW(SIN(30));
+	SHOW(COS(30));
+	SHOW(TAN(30));
+	
+}}

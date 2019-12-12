@@ -1,0 +1,10 @@
+declared (1) foo
+declared (2) bar
+Showing value : 75.491219
+declared (3) ssttrr
+Showing value : "Carbo"
+Value of this switch case is= 333.000000
+
+"loop_chalabo"
+
+syntax error
